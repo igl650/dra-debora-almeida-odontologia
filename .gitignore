@@ -1,0 +1,14 @@
+.superdesign/
+.vercel/
+.env
+.env.*
+!.env.example
+referencias-visuais/
+screenshot-*.png
+hero-mobile-*.png
+PROMPTS-*.md
+AUDITORIA-*.md
+avaliacao-materiais-identidade.md
+brief-e-plano.md
+referencia-visual.html
+node_modules/
