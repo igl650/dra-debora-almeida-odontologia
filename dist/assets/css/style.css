@@ -948,6 +948,22 @@ button {
     box-shadow: var(--shadow-sm);
 }
 
+.about-meta-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.about-meta-info {
+    min-width: 0;
+}
+
+.whatsapp-brand-icon {
+    display: block;
+    flex: none;
+}
+
 .about-meta-name {
     font-family: var(--font-serif);
     font-size: 1.5rem;
@@ -1917,6 +1933,16 @@ button {
     transition: transform var(--transition-medium), background-color var(--transition-fast), box-shadow var(--transition-medium);
 }
 
+.fab-whatsapp .whatsapp-brand-icon {
+    width: 28px;
+    height: 28px;
+}
+
+.mobile-menu-footer .whatsapp-brand-icon {
+    width: 18px;
+    height: 18px;
+}
+
 .fab-whatsapp:hover {
     background-color: var(--color-whatsapp-hover);
     transform: scale(1.08) translateY(-3px);
@@ -2089,8 +2115,19 @@ button {
 
     .about-meta-card {
         flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
+    }
+
+    .about-meta-info {
+        flex: 1 1 220px;
+    }
+
+    .about-meta-actions .btn-sm {
+        padding-right: 12px;
+        padding-left: 12px;
+        font-size: 0.8125rem;
     }
 
     .treatments-grid {
